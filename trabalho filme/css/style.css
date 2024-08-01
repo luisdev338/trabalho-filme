@@ -1,0 +1,110 @@
+
+:root{
+    --cor1:#FA2805;
+    --cor2:#FA5305;
+    --cor3:#FAA205;
+    --cor4:#FA9A6D;
+    --cor5:#1F0118;
+}
+
+/*     
+@media (max-width: 1900px) {
+      .img, .sidebar } {
+        width: 1000px;
+    }
+
+@media (max-width: 1024px) {
+        .img, .sidebar } {
+          width: 700px;
+      }
+@media (max-width: 768px) {
+        .img, .sidebar  {
+          width: 400px;
+   }   }
+@media (max-width: 425px) {
+        .img, .sidebar } {
+          width: 320px; */
+      
+  
+*{   margin:0;
+    /* background-color: #1F0118; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+
+ h1{
+    color: var(--cor3);
+ }
+  
+.header{
+    font-size: 25px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   background-color: #333;
+   color: #fff;
+
+}
+
+.nav ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    display: flex;
+    
+}
+
+nav li{
+    margin-right: 20px;
+}
+
+nav a {
+    color:#fff;
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 20px;   
+
+}
+
+h2{
+    color: var(--cor3);
+}
+.conteudo{
+    width: 70%;
+    padding: 20px;
+    background-color: #7f7f77;
+    border: 1px solide #ddd; 
+}
+
+
+.video{
+    box-shadow: 25px 25px 25px 25px rgba(0, 0, 0, 0.603);
+    border-radius: 20px 20px;  
+}
+
+
+
+/* valor de height padrao desktop de casa*/
+.sidebar{
+    height: 558px;
+    width: auto;
+    padding: 50px;
+    background-color: #7f7f77;
+    border:1px solid #ddd;
+    
+}
+
+.rodape{
+    width: auto;
+    padding: 50px;
+    border:1px solid #ddd;
+    background-color: #7f7f77;
+}
